@@ -1,0 +1,375 @@
+body{
+	font-family: Helvetica Neue For Number,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,PingFang SC,Hiragino Sans GB,Microsoft YaHei,Helvetica Neue,Helvetica,Arial,sans-serif;
+	font-size: 14px;
+	line-height: 1.5;
+	color: rgba(0,0,0,.65);
+}
+body,
+p,
+ul,
+ol,
+dl,
+dt {
+	margin: 0;
+	padding: 0;
+}
+a,h1,h2,h3{
+	text-decoration: none;
+	color: white;
+}
+
+ul,
+ol {
+	list-style: none;
+}
+/* XA头部start*/
+.header{
+	background: #242424;
+	position: relative;
+	width: 100%;
+	display: flex;
+	z-index: 100;
+}
+.header-list{
+	width: 1360px;
+	height: 56px;	
+	display: flex;
+	margin: 0 auto;
+}
+.header-list li{
+	float: left;
+	line-height: 55px;
+	flex: 0 1 10em;
+	cursor: pointer;
+	text-align: center;
+}
+.header-list li a:hover{
+	color: #1890ff;
+}
+.logo-name{
+	margin-right: 30px;
+	font-size: 24px;
+}
+#logo{
+	display:inline-block ;
+	vertical-align:middle;
+}
+#console{
+	margin-left: 60px;	
+}
+
+#login a{
+	color: #fff;
+	font-size: 14px;
+	line-height: 56px;
+	font-family: \.PingFangSC-Regular;
+}
+
+#login a:hover{
+	color: white;
+}
+.login-btn{
+	width:78px;
+	height: 50px;
+	color: #fff;
+	background-color: #242424;
+}
+.text{
+	line-height: 1.499;
+	position: relative;
+	text-align: center;
+	height: 32px;
+	font-size: 14px;
+	border-radius: 15px;
+	color: rgba(0,0,0,.65);
+	background-color: #fff;
+	border: 1px solid #d9d9d9;
+}
+
+.login-btn:hover{
+	border: 0;
+	cursor: pointer;
+	background-color: #0077AA;
+}
+
+/* XA头部end*/
+/* XA内容start */
+#myBtn {
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  right: 30px;
+  z-index: 99;
+  border: none;
+  background-color: #0077AA;
+  cursor: pointer;
+  padding: 15px;
+  border-radius: 10px;
+}
+
+.slick-list1{
+	height: 250px;
+}
+
+.btn-group{
+	position:relative ;
+	top: 20%;
+	text-align: center;
+}
+.btn-group button{
+	position: relative;
+	top: 20px;
+	color: #FFFFFF;
+	margin: 10px;
+	width: 260px;
+	height: 56px;
+	font-size: 20px;
+	border: 0;
+	background: #00eaff;
+	cursor: pointer;
+}
+
+
+@media (max-width: 1440px)
+.summary {
+    width: 1280px;
+}
+
+.topoftheworld #topone{
+	position: relative;
+	padding-top: 50px;
+}
+
+.topoftheworld p{
+	text-align: center;
+}
+.jian-row{
+	display: flex;
+	width: 1365px;
+	margin: 0 auto;
+	margin-bottom: 40px;
+}
+.jian-row1{
+	display: flex;
+	width: 1365px;
+	margin: 0 auto;
+	margin-bottom: 40px;
+}
+.jian-row1 div{
+	width: 33.3%;
+	padding: 0 15px;
+}
+
+.jian-row1 div img{
+	width: 40px;
+	height: 40px;
+}
+
+.jian-row2{
+	display: flex;
+	width: 1365px;
+	margin: 0 auto;
+	margin-bottom: 40px;
+}
+.jian-row2 .jianr1{
+	width: 33.3%;
+	padding: 0 15px;
+}
+
+.jian-row2 div img{
+	width: 437px;
+	height: 310px;
+}
+
+.jian-row div{
+	width: 25%;
+	padding: 0 15px;	
+}
+
+.jian-row div img{
+	width: 289px;
+	height: 109px;
+}
+
+.jianr a{
+	color: #0087FF;
+}
+
+.jian-skill{
+	width: 1348px;
+	height: 700px;
+	margin: 0 auto;
+	margin-bottom: 40px;
+}
+.top{
+	width: 98%;
+	height: 50%;
+	margin: 0 auto;	
+	
+}
+.jians,.jians2{
+	float: left;
+	width: 604px;
+	text-align: center;
+	margin-bottom: 20px;
+	font-size: 20px;
+	
+}
+
+.jians2{
+	float: right;
+}
+.jians img,.jians2 img{
+	width: 604px;
+	height: 268px;
+}
+
+/* 技能创建流程start */
+.skill-process{
+	width: 100%;
+	height: 500px;
+	margin: 0;
+	background-color: #292F59;
+	padding-top: 30px;
+	margin-bottom: 60px;
+}
+.process-inner{
+	width: 1400px;
+	padding: 0 20px;
+	color: #fff;
+	margin: 0 auto;
+}
+.process-inner .context{
+	text-align: center;
+	font-size: 20px;
+}
+.phone-row{
+	position: relative;
+	top: 100px;
+	margin: 0 auto;
+	width: 1360px;
+	height: 406px;
+	display: flex;
+	
+}
+.picture{
+	text-align: center;
+}
+.jianw img{
+	margin: 0 auto;
+	width: 48px;
+	height: 48px;
+}
+.jianq{
+	margin-left: 16px;
+	margin-right:16px;
+	flex: 1;
+	width: 180px;
+	height: 2px;
+	margin-top: 25px;
+	background-color: gray;
+}
+.btn-container{
+	position: relative;
+	bottom: 100px;
+	width: 1400px;
+	text-align: center;
+}
+
+.btn-container button{
+	cursor: pointer;
+	width: 260px;
+	height: 56px;
+	color: #000000;
+	font-size: 20px;
+	border: 0;
+	background: #FFFFFF;
+}
+
+.btn-container button:hover{
+	background: #0077AA;
+	border: 1px 1px solid #333;
+}
+/* 技能创建流程end */
+
+/*语言服务平台start*/
+.jian-row2{
+	margin-top: 110px;
+}
+.text-container{
+	padding: 20px 25px;
+	border: 1px solid #eceef0;
+}
+.jian-row2 .jianr1 .jianr1-video img{
+	position: relative;
+	bottom: 100px;
+}
+.check-more{
+	display: block;
+	font-size: 16px;
+	color: #000;
+	text-align: center;
+	line-height: 24px;
+	margin: 40px 0 200px;
+	cursor: pointer;
+	
+}
+.check-more span:hover{
+	color: #1890ff;
+}
+
+
+/*语言服务平台end*/
+/* XA内容end */
+
+/* 尾部栏start */
+.end{
+	width: 100%;
+	background: #333;
+	bottom: 0;
+}
+.footer-row{
+	width: 1400px;
+	padding: 40px 20px;
+	margin: 0 auto;
+	display: flex;
+}
+.column{
+	width: 20%;
+	flex: 0 0 20em;
+}
+.column ul li a{
+	color: gray;
+	cursor: pointer;
+}
+.column ul li a:hover{
+	color: #FFFFFF;
+}
+.column .title{
+	font-size: 14px;
+	color: #fff;
+	line-height: 24px;
+	margin-bottom: 15px;
+	flex: 1;
+}
+.niubi{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 100%;
+	height: 56px;
+	background: #212121;
+}
+
+.niubi li{
+	padding: 0 10px;
+}
+
+.niubi li a{
+	transition: color 1s;
+}
+
+.niubi li a:hover{
+	color: #0077AA;
+}
+/* 尾部栏end */

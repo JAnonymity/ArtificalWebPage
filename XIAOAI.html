@@ -1,0 +1,421 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>小爱开放平台-为开发者提供一站式人工智能服务</title>
+		<script src="js/jquery-1.4.2.js" type="text/javascript" charset="utf-8"></script>
+		<link rel="shortcut icon" href="//land.xiaomi.net/mcfe/xiaoai-open-platform/logo.png">
+		<link rel="stylesheet" type="text/css" href="../../css/XA.css" />
+		<link rel="stylesheet" type="text/css" href="../../css/fonts.css"/>
+		<script type="text/javascript">
+					$(document).ready(function(){
+						var index=0;
+						var time=setInterval(function(){
+						index++;
+						if (index>2) {
+							index=0;
+						}
+						$(".dots").eq(index).addClass("slideshow").siblings().removeClass("slideshow");
+						},4000)
+					});
+					$(function() {
+						$(window).scroll(function() {
+							if ($(this).scrollTop() > 300) {
+								$("#myBtn").fadeIn();
+							} else {
+								$("#myBtn").fadeOut();
+							}
+						});
+						$("#myBtn").click(function() {
+							if ($(window).scrollTop() > 0) {
+								$("html").animate({
+									scrollTop: 0
+								}, 600);
+							}
+						});
+					});
+		</script>
+	</head>
+	<body>
+		<!--[if lt IE 9]>
+				<style>.comm-head{top:40px}</style>
+				<p class="chromeframe">
+				  <span>您使用的IE浏览器版本过低，本站不再支持，</span>
+				  <a href="//windows.microsoft.com/">升级您的IE浏览器</a>
+				  <span>，或使用</span>
+				  <a href="//www.google.cn/chrome/">Google Chrome</a><a>、</a><a href="//www.firefox.com.cn/download/">Firefox</a>
+				  <span>等高级浏览器，将会得到更好的体验！</span>
+				</p>
+				<![endif]-->
+		<div class="container">
+			<!-- 头部固定栏 -->
+			<div class="header">
+				<ul class="header-list">
+					<li class="logo-name"><a href="#"><img id="logo" src="../../image/小爱网站/logo.png" width="34" height="32"><span>小爱开放平台</span></a></li>
+					<li><a href="#">小爱同学3.0</a></li>
+					<li><a href="#">技能平台</a></li>
+					<li><a href="#">语音服务</a></li>
+					<li><a href="#">蓝牙服务</a></li>
+					<li><a href="#">资源中心</a></li>
+					<li><a href="#">小爱论坛</a></li>
+					<li><a href="#">联系我们</a></li>
+					<li><a href="#">激励计划</a></li>
+					<li id="console">
+						<div><a href="#">控制台</a></div>
+					</li>
+					<li id="login">
+						<a href="#">
+							<button type="button" class="text login-btn">登录</button>
+						</a>
+					</li>
+				</ul>
+			</div>
+			<!-- 内容部分 -->
+			<button id="myBtn" title="回顶部" class="iconfont">&#xe607;</button>
+			<div class="body-container">
+				
+				<div class="summary">
+					<div class="topoftheworld">
+						<p id="topone" style="font-size: 32px;color:#000;margin-bottom: 40px;">领先的人工智能开放平台</p>
+						<p style="font-size: 20px;color:#000;margin-bottom: 40px;">小爱开放平台把小米在人工智能领域的技术积累对外输出，我们提供多种能力给开发者，帮助开发者实现更多可能</p>
+					</div>
+					<div class="jian-row">
+						<div class="jianr1">
+							<img src="../../image/小爱网站/XA1.jpg">
+							<h4>ASR语音识别</h4>
+							<p>通过声学模型可以把用户的声音转化为文字，识别率高达97%</p>
+						</div>
+						<div class="jianr2">
+							<img src="../../image/小爱网站/XA2.jpg">
+							<h4>NLP自然语音处理</h4>
+							<p>我们提供可视化的自然语言处理建模工具帮助开发者解析用户的语料</p>
+						</div>
+						<div class="jianr3">
+							<img src="../../image/小爱网站/XA3.jpg">
+							<h4>海量终端设备用户</h4>
+							<p>您的服务和内容将会触达所有搭载小爱语音服务的终端用户</p>
+						</div>
+						<div class="jianr4">
+							<img src="../../image/小爱网站/XA4.jpg">
+							<h4>丰富的语音能力</h4>
+							<p>小爱内置上百种语音能力，并且还在持续增长</p>
+						</div>
+					</div>
+				</div>
+				<div class="topoftheworld">
+					<p style="font-size: 32px;color:#000;margin-bottom: 40px;">技能开发平台</p>
+					<p style="font-size: 20px;color:#000;margin-bottom: 40px;">将你的内容，服务，创意变为语音技能</p>
+				</div>
+				<div class="jian-skill">
+					<div class="top">
+						<div class="jians">
+							<img src="../../image/小爱网站/XA5.jpg">
+							<span>内容</span>
+						</div>
+						<div class="jians2">
+							<img src="../../image/小爱网站/XA6.jpg">
+							<span>服务</span>
+						</div>
+					</div>
+					<div class="top">
+						<div class="jians">
+							<img src="../../image/小爱网站/XA7.jpg">
+							<span>创意</span>
+						</div>
+						<div class="jians2">
+							<img src="../../image/小爱网站/XA8.jpg">
+							<span>智能家居</span>
+						</div>
+					</div>
+				</div>
+				<div class="topoftheworld">
+					<p style="font-size: 20px;color:#000;margin-bottom: 40px;">完善的开发套件，帮助企业和中小开发者快速低成本创建语音技能</p>
+				</div>
+				<div class="jian-row1">
+					<div class="jianr1">
+						<img src="../../image/小爱网站/XAa.png">
+						<h4>NLP交互模型</h4>
+						<p>小爱开放平台内置的可视化NLP建模工具，让开发者能够通过非常简单的配置，生成适合自己技能的自然语言处理模型</p>
+					</div>
+					<div class="jianr2">
+						<img src="../../image/小爱网站/XAb.png">
+						<h4>存储&数据库</h4>
+						<p>小爱开放平台面向使用函数计算服务的开发者提供数据库和缓存等存储服务（暂时免费），借助这个能力开发者可以非常方便的开发复杂技能</p>
+					</div>
+					<div class="jianr3">
+						<img src="../../image/小爱网站/XAc.png">
+						<h4>测试工具</h4>
+						<p>提供在线测试，真机测试，模拟APP测试三种技能测试工具，方便开发者快速高效的进行技能测试</p>
+					</div>
+				</div>
+				<div class="skill-process">
+					<div class="process-inner">
+						<p class="context">技能创建流程</p>
+						<div class="phone-process">
+							<div class="phone-row">
+								<div class="jianw">
+									<div class="picture">
+										<img src="../../image/小爱网站/aXA.png">
+									</div>
+									<div class="topoftheworld">
+										<p style="font-size: 20px;color:#fff;margin-bottom: 20px;">认证开发者</p>
+										<p style="font-size: 12px;color:#fff;">注册小米账号</p>
+										<p style="font-size: 12px;color:#fff;margin-bottom: 40px;">实名认证为小爱开放平台开发者</p>
+									</div>
+								</div>
+								<div class="jianq">
+								</div>
+								<div class="jianw">
+									<div class="picture">
+										<img src="../../image/小爱网站/bXA.png">
+									</div>
+									<div class="topoftheworld">
+										<p style="font-size: 20px;color:#fff;margin-bottom: 20px;">认证开发者</p>
+										<p style="font-size: 12px;color:#fff;">注册小米账号</p>
+										<p style="font-size: 12px;color:#fff;margin-bottom: 40px;">实名认证为小爱开放平台开发者</p>
+									</div>
+
+								</div>
+								<div class="jianq">
+								</div>
+								<div class="jianw">
+									<div class="picture">
+										<img src="../../image/小爱网站/cXA.png">
+									</div>
+									<div class="topoftheworld">
+										<p style="font-size: 20px;color:#fff;margin-bottom: 20px;">认证开发者</p>
+										<p style="font-size: 12px;color:#fff;">注册小米账号</p>
+										<p style="font-size: 12px;color:#fff;margin-bottom: 40px;">实名认证为小爱开放平台开发者</p>
+									</div>
+								</div>
+								<div class="jianq">
+								</div>
+								<div class="jianw">
+									<div class="picture">
+										<img src="../../image/小爱网站/dXA.png">
+									</div>
+									<div class="topoftheworld">
+										<p style="font-size: 20px;color:#fff;margin-bottom: 20px;">认证开发者</p>
+										<p style="font-size: 12px;color:#fff;">注册小米账号</p>
+										<p style="font-size: 12px;color:#fff;margin-bottom: 40px;">实名认证为小爱开放平台开发者</p>
+									</div>
+								</div>
+								<div class="jianq">
+								</div>
+								<div class="jianw">
+									<div class="picture">
+										<img src="../../image/小爱网站/eXa.png">
+									</div>
+									<div class="topoftheworld">
+										<p style="font-size: 20px;color:#fff;margin-bottom: 20px;">认证开发者</p>
+										<p style="font-size: 12px;color:#fff;">注册小米账号</p>
+										<p style="font-size: 12px;color:#fff;margin-bottom: 40px;">实名认证为小爱开放平台开发者</p>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="btn-container">
+							<button type="button">技能开放平台</button>
+						</div>
+					</div>
+				</div>
+				<!-- 语言服务平台 -->
+				<div class="yyplatform">
+					<div class="topoftheworld">
+						<p style="font-size: 32px;color:#000000;margin-bottom: 20px;">语音服务平台</p>
+						<p style="font-size: 20px;color:#000000;margin-bottom: 20px;">让你的产品搭载上小爱同学语音服务</p>
+					</div>
+					<div class="jian-row2">
+
+						<div class="jianr1">
+							<div class="jianr1-video" style="background: rgb(215, 248, 255);height: 220px;">
+								<img src="../../image/小爱网站/X1.png">
+							</div>
+							<div class="text-container">
+								<h4>音箱</h4>
+								<p>你可以直接和音箱对话，利用音箱来帮你完成包括闹钟提醒、智能家居控制、语音游戏等创新功能</p>
+							</div>
+						</div>
+						<div class="jianr1">
+							<div class="jianr1-video" style="background: rgb(210, 226, 255);height: 220px;">
+								<img src="../../image/小爱网站/X2.png">
+							</div>
+							<div class="text-container">
+								<h4>电视</h4>
+								<p>通过语音服务，你可以在电视上利用语音来完成设备控制，影视资源的搜索和播放等操作</p>
+							</div>
+						</div>
+						<div class="jianr1">
+							<div class="jianr1-video" style="background: rgb(255, 224, 214);height: 220px;">
+								<img src="../../image/小爱网站/X3.png">
+							</div>
+							<div class="text-container">
+								<h4>智能穿戴</h4>
+								<p>现在你可以通过小米大脑在小屏设备上体验到智能的语音服务，利用语音服务可以进行音频、信息的检索推荐</p>
+							</div>
+						</div>
+					</div>
+					<a href="#" class="check-more"><span>查看更多</span></a>
+					<p style="font-size: 20px;color:#000000;margin-bottom: 50px;text-align: center;">一站式智能语音接入服务，提供技术专人对接及权威检测报告</p>
+					<div class="jian-row1">
+						<div>
+							<img src="../../image/小爱网站/XAd.png">
+							<h4>语音认证</h4>
+							<p>拥有国内顶级声学测量设备和声学实验室，模拟多种用户使用的声学场景，保证远场语音设备交互的整体质量，提供权威检测报告及产品改进建议</p>
+						</div>
+						<div>
+							<img src="../../image/小爱网站/XAe.png">
+							<h4>快速接入</h4>
+							<p>覆盖多种接入方式，打通小米开放平台及小米IoT开发者平台，可快速接入应用程序及智能设备</p>
+						</div>
+						<div class="jianr">
+							<img src="../../image/小爱网站/XAf.png">
+							<h4>语音技能</h4>
+							<p>基于产品硬件方案及形态为你推荐适合的语音技能，“小爱同学”拥有近百款自研精品技能，同时设备厂商可以根据需求定制只属于自己设备的技能...</p>
+							<a href="#">查看更多</a>
+						</div>
+						<div class="jianr">
+							<img src="../../image/小爱网站/XAg.png">
+							<h4>智能家居</h4>
+							<p>连接家与未来，接入小爱智能家居语音服务，可控制家中的智能设备，实现声控照明、调温、加湿等，从此彻底解放双手...</p>
+							<a href="#">查看更多</a>
+						</div>
+					</div>
+					<!-- 语音服务接入流程 -->
+					<div class="skill-process" style="background: #0fbdd8;margin-bottom: 0;">
+						<div class="process-inner">
+							<p class="context">语音服务接入流程</p>
+							<div class="phone-process">
+								<div class="phone-row">
+									<div class="jianw">
+										<div class="picture">
+											<img src="../../image/小爱网站/aXA.png">
+										</div>
+										<div class="topoftheworld">
+											<p style="font-size: 20px;color:#fff;margin-bottom: 20px;">成为开发者</p>
+										</div>
+									</div>
+									<div class="jianq">
+									</div>
+									<div class="jianw">
+										<div class="picture">
+											<img src="../../image/小爱网站/bXA.png">
+										</div>
+										<div class="topoftheworld">
+											<p style="font-size: 20px;color:#fff;margin-bottom: 20px;">创建产品</p>
+
+										</div>
+
+									</div>
+									<div class="jianq">
+									</div>
+									<div class="jianw">
+										<div class="picture">
+											<img src="../../image/小爱网站/cXA.png">
+										</div>
+										<div class="topoftheworld">
+											<p style="font-size: 20px;color:#fff;margin-bottom: 20px;">开发测试</p>
+
+										</div>
+									</div>
+									<div class="jianq">
+									</div>
+									<div class="jianw">
+										<div class="picture">
+											<img src="../../image/小爱网站/qwe.png">
+										</div>
+										<div class="topoftheworld">
+											<p style="font-size: 20px;color:#fff;margin-bottom: 20px;">产品认证</p>
+
+										</div>
+									</div>
+									<div class="jianq">
+									</div>
+									<div class="jianw">
+										<div class="picture">
+											<img src="../../image/小爱网站/df.png">
+										</div>
+										<div class="topoftheworld">
+											<p style="font-size: 20px;color:#fff;margin-bottom: 20px;">认证开发者</p>
+
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="btn-container">
+								<button type="button">创建产品</button>
+							</div>
+						</div>
+					</div>
+					<div class="start-use">
+						<div class="slick-list1" style=" background: #434448;">
+							<div class="btn-group">
+								<h1>开始使用小爱开放平台</h1>
+								<button type="button" style="background: #5481fe;">技能开发</button>
+								<button type="button">语言服务</button>
+							</div>
+						</div>
+					</div>
+				</div>
+				<!-- 尾部栏 -->
+				<div class="end">
+					<div class="footer-row">
+						<div class="column">
+						<p class="title">友情链接</p>
+						<ul>
+							<li><a href="https://dev.mi.com/" target="_blank" rel="noopener noreferrer">小米开放平台</a></li>
+							<li><a href="https://iot.mi.com/index.html" target="_blank" rel="noopener noreferrer">小米IoT开发者平台</a></li>
+							<li><a href="https://cnbj6.cloud.mi.com/" target="_blank" rel="noopener noreferrer">小米生态云</a></li>
+							<li><a href="http://www.mi.com/" target="_blank" rel="noopener noreferrer">小米商城</a></li>
+						</ul>
+						</div>
+						<div class="column">
+						<p class="title">友情链接</p>
+						<ul>
+							<li><a href="https://dev.mi.com/" target="_blank" rel="noopener noreferrer">小米开放平台</a></li>
+							<li><a href="https://iot.mi.com/index.html" target="_blank" rel="noopener noreferrer">小米IoT开发者平台</a></li>
+							<li><a href="https://cnbj6.cloud.mi.com/" target="_blank" rel="noopener noreferrer">小米生态云</a></li>
+							<li><a href="http://www.mi.com/" target="_blank" rel="noopener noreferrer">小米商城</a></li>
+						</ul>
+						</div>
+						<div class="column">
+						<p class="title">友情链接</p>
+						<ul>
+							<li><a href="https://dev.mi.com/" target="_blank" rel="noopener noreferrer">小米开放平台</a></li>
+							<li><a href="https://iot.mi.com/index.html" target="_blank" rel="noopener noreferrer">小米IoT开发者平台</a></li>
+							<li><a href="https://cnbj6.cloud.mi.com/" target="_blank" rel="noopener noreferrer">小米生态云</a></li>
+							<li><a href="http://www.mi.com/" target="_blank" rel="noopener noreferrer">小米商城</a></li>
+						</ul>
+						</div>
+						<div class="column">
+						<p class="title">友情链接</p>
+						<ul>
+							<li><a href="https://dev.mi.com/" target="_blank" rel="noopener noreferrer">小米开放平台</a></li>
+							<li><a href="https://iot.mi.com/index.html" target="_blank" rel="noopener noreferrer">小米IoT开发者平台</a></li>
+							<li><a href="https://cnbj6.cloud.mi.com/" target="_blank" rel="noopener noreferrer">小米生态云</a></li>
+							<li><a href="http://www.mi.com/" target="_blank" rel="noopener noreferrer">小米商城</a></li>
+						</ul>
+						</div>
+						<div class="column">
+						<p class="title">友情链接</p>
+						<ul>
+							<li><a href="https://dev.mi.com/" target="_blank" rel="noopener noreferrer">小米开放平台</a></li>
+							<li><a href="https://iot.mi.com/index.html" target="_blank" rel="noopener noreferrer">小米IoT开发者平台</a></li>
+							<li><a href="https://cnbj6.cloud.mi.com/" target="_blank" rel="noopener noreferrer">小米生态云</a></li>
+							<li><a href="http://www.mi.com/" target="_blank" rel="noopener noreferrer">小米商城</a></li>
+						</ul>
+						</div>
+					</div>
+					<ul class="niubi">
+					<li><a href="">尖兵果子</a></li>
+					<li><a href="">制作于2021</a></li>
+					<li><a href="">10/20-10/25</a></li>
+					<li><a href="">surperB</a></li>	
+					</ul>
+				</div>
+			</div>
+
+
+		</div>
+	</body>
+</html>
